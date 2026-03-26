@@ -7,8 +7,7 @@ const MAKE_WEBHOOK_URL = 'https://hook.us2.make.com/ma2cswya80eczei7q2hgxltddhd8
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: { 
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
-        executablePath: '/usr/bin/google-chrome-stable' 
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     }
 });
 
