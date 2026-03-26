@@ -8,6 +8,7 @@ const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: { 
         args: ['--no-sandbox', '--disable-setuid-sandbox']
+        // Removi a linha executablePath para o sistema achar sozinho
     }
 });
 
